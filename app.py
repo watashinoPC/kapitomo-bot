@@ -40,5 +40,5 @@ def handle_message(event):
     )
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render が使うポートを指定
+    port = int(os.environ.get("PORT", 5000)) 
     app.run(host="0.0.0.0", port=port)
